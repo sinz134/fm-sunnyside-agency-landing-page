@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 .attribution {
   font-size: 11px;
@@ -11,27 +11,39 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-image {
-    background-image: url("images/desktop/image-header.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: url("images/desktop/image-header.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.hero-text{
-    color: white;
-    font-family: 'Fraunces', serif;
-    font-weight:700;
-   
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-20%);
+.hero-text {
+  color: white;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
 
-    
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30%);
+}
+
+.hero-text img {
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+#navbar-default {
+  font-family: "Fraunces", serif;
+  color: white;
+}
+
+#navbar-default a:hover {
+  font-size: 12px;
 }
