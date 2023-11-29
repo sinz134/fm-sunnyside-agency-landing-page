@@ -33,10 +33,89 @@
   left: 50%;
   transform: translateX(-50%) translateY(-30%);
 }
+.transf-description div,
+.standout-description div {
+  padding: 18%;
+}
+.transf-description :is(h1, a),
+.standout-description :is(h1, a),
+.container-photographic h1,
+.container-client :is(h1, h2) {
+  font-family: "Fraunces", serif;
+  line-height: 1.2;
+}
+
+.container-client h1 {
+  letter-spacing: 0.3rem;
+}
+
+.container-client img {
+  border-radius: 100%;
+}
+.transf-description h1,
+.standout-description h1 {
+  font-size: 56px;
+}
+.container-photographic h1 {
+  font-size: 32px;
+}
+.graphic-image {
+  color: #2b3f3d;
+}
+
+.photography-image {
+  color: #244b5e;
+}
+.container-photographic p,
+.container-client p {
+  font-family: "Barlow", serif;
+}
+.transf-description a,
+.standout-description a {
+  padding: 0 10px;
+}
+.transf-description a:hover {
+  background-image: linear-gradient(120deg, #ffd302 0%, #ffd302 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 98%;
+  border-radius: 5px;
+}
+
+.standout-description a:hover {
+  background-image: linear-gradient(120deg, #fe6f61 0%, #fe6f61 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 98%;
+  border-radius: 5px;
+}
+.transf-description p,
+.standout-description p {
+  font-family: "Barlow", serif;
+  color: #949494;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.transf-image img,
+.standout-image img {
+  height: 100%;
+  width: 100%;
+}
 
 .hero-text img {
   margin: 0 auto;
   padding-top: 200px;
+}
+
+.container-footer a:hover {
+  color: white;
+
+}
+
+.container-footer {
+  background-color: hsl(168, 53%, 72%);
+  background-size: contain;
+  font-family: "Barlow", serif;
 }
 
 #navbar-default {

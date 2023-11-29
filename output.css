@@ -534,6 +534,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.top-2\/3 {
+  top: 66.666667%;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -544,13 +560,43 @@ video {
   margin-right: 3.5rem;
 }
 
+.mx-48 {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -565,6 +611,10 @@ video {
   height: 2rem;
 }
 
+.w-1\/6 {
+  width: 16.666667%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -573,8 +623,29 @@ video {
   max-width: 100%;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.basis-10 {
+  flex-basis: 2.5rem;
+}
+
+.basis-24 {
+  flex-basis: 6rem;
+}
+
+.basis-5 {
+  flex-basis: 1.25rem;
+}
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -589,8 +660,24 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -607,9 +694,19 @@ video {
   padding: 1rem;
 }
 
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .py-10 {
@@ -622,13 +719,63 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-emerald-800 {
+  --tw-text-opacity: 1;
+  color: rgb(6 95 70 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-neutral-400 {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity));
 }
 
 .attribution {
@@ -664,9 +811,97 @@ video {
   transform: translateX(-50%) translateY(-30%);
 }
 
+.transf-description div,
+.standout-description div {
+  padding: 18%;
+}
+
+.transf-description :is(h1, a),
+.standout-description :is(h1, a),
+.container-photographic h1,
+.container-client :is(h1, h2) {
+  font-family: "Fraunces", serif;
+  line-height: 1.2;
+}
+
+.container-client h1 {
+  letter-spacing: 0.3rem;
+}
+
+.container-client img {
+  border-radius: 100%;
+}
+
+.transf-description h1,
+.standout-description h1 {
+  font-size: 56px;
+}
+
+.container-photographic h1 {
+  font-size: 32px;
+}
+
+.graphic-image {
+  color: #2b3f3d;
+}
+
+.photography-image {
+  color: #244b5e;
+}
+
+.container-photographic p,
+.container-client p {
+  font-family: "Barlow", serif;
+}
+
+.transf-description a,
+.standout-description a {
+  padding: 0 10px;
+}
+
+.transf-description a:hover {
+  background-image: linear-gradient(120deg, #ffd302 0%, #ffd302 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 98%;
+  border-radius: 5px;
+}
+
+.standout-description a:hover {
+  background-image: linear-gradient(120deg, #fe6f61 0%, #fe6f61 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 98%;
+  border-radius: 5px;
+}
+
+.transf-description p,
+.standout-description p {
+  font-family: "Barlow", serif;
+  color: #949494;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.transf-image img,
+.standout-image img {
+  height: 100%;
+  width: 100%;
+}
+
 .hero-text img {
   margin: 0 auto;
   padding-top: 200px;
+}
+
+.container-footer a:hover {
+  color: white;
+}
+
+.container-footer {
+  background-color: hsl(168, 53%, 72%);
+  background-size: contain;
+  font-family: "Barlow", serif;
 }
 
 #navbar-default {
