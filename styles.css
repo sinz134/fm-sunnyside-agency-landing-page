@@ -28,8 +28,8 @@
   font-family: "Fraunces", serif;
   font-weight: 700;
 
-  position: absolute;
-  top: 30%;
+  
+  /* top: 30%; */
   left: 50%;
   transform: translateX(-50%) translateY(-30%);
 }
@@ -102,16 +102,23 @@
   width: 100%;
 }
 
-.hero-text img {
+/* .hero-text img {
   margin: 0 auto;
   padding-top: 200px;
-}
+} */
 
 .container-footer a:hover {
   color: white;
-
 }
-
+.container-gallery img {
+  width: 100%;
+  height: 50vw;
+}
+@media screen and (min-width: 1024px) {
+  .container-gallery img {
+    height: 100%;
+  }
+}
 .container-footer {
   background-color: hsl(168, 53%, 72%);
   background-size: contain;
